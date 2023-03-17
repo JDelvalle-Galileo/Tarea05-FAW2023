@@ -1,0 +1,26 @@
+#header{
+    background-color:#353535;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    a{
+            color:white;
+        }
+        a:link{
+            text-decoration: none;
+        }
+        a:visited{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color:#3C6E71;
+        }
+        a:active{
+            text-decoration: none;
+        }
+    
+}

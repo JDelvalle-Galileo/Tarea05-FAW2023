@@ -1,0 +1,12 @@
+#content{
+    padding-left: 10px;
+}
+#conversionsTable{
+    width: 500px;
+    border-collapse: collapse;
+    th, td{
+        border: 1px solid black;
+        width: 50%;
+        text-align: center;
+    }
+}

@@ -8,7 +8,7 @@ import { Conversion } from 'src/app/models/Conversion';
 })
 export class ConversionSelectorComponent {
   grados:number = 0;
-  tipo:string = "";
+  tipo:string = "Cel";  // deja Celsius como default del select.
 
   @Output() conversionOut = new EventEmitter<Conversion>()
 

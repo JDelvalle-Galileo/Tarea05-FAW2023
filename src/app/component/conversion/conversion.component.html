@@ -1,4 +1,16 @@
-<h1>Conversion</h1>
+<div id="content">
+    <h1>Conversion</h1>
 
-<app-conversion-selector></app-conversion-selector>
+    <app-conversion-selector (conversionOut)="nuevaConversion($event)"></app-conversion-selector>
 
+    <table id="conversionsTable">
+        <tr>
+            <th>Celcius</th>
+            <th>Fahrenheit</th>
+        </tr>
+        <tr *ngFor="let conv of list">
+            <td>{{conv.celsius}}</td>
+            <td>{{conv.fahrenheit}}</td>
+        </tr>
+    </table>
+</div>

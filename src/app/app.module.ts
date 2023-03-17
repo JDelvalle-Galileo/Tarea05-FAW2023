@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ConversionComponent } from './component/conversion/conversion.component';
 import { ConversionSelectorComponent } from './component/conversion-selector/conversion-selector.component';
 import { ToolbarComponent } from './component/toolbar/toolbar.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ToolbarComponent } from './component/toolbar/toolbar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

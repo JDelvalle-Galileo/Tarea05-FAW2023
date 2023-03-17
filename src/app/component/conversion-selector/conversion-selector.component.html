@@ -1,1 +1,8 @@
-<p>conversion-selector works!</p>
+<div id="grados">Grados: <input type="number" [(ngModel)]="grados"></div>
+<div id="tipo">Tipo: 
+    <select [(ngModel)]="tipo">
+        <option value="Cel">Celsius</option>
+        <option value="Fahr">Fahrenheit</option>
+    </select>
+</div>
+<div id="button"><button>Convertir y guardar</button></div>

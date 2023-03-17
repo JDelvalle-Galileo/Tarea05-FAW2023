@@ -1,1 +1,10 @@
-<p>personajes-select works!</p>
+<div id="personaje">Personaje: 
+    <select [(ngModel)]="personaje">
+        <option value="Hechicero">Hechicero</option>
+        <option value="Bruja">Bruja</option>+
+        <option value="Arquero">Arquero</option>
+        <option value="Fantasma">Fantasma</option>
+        <option value="Hada">Hada</option>
+    </select>
+</div>
+<div id="button"><button (click)="generarImagen()">Mostrar</button></div>

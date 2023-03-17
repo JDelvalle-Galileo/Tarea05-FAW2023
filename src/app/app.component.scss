@@ -1,0 +1,19 @@
+body{
+    display:flex;
+    flex-direction: column;
+  
+}
+#content{
+    width: 100%;
+    height: 88.3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    #Alogo{
+        height: 500px;
+    }
+    
+}
+

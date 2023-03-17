@@ -7,13 +7,19 @@ import { ConversionComponent } from './component/conversion/conversion.component
 import { ConversionSelectorComponent } from './component/conversion-selector/conversion-selector.component';
 import { ToolbarComponent } from './component/toolbar/toolbar.component';
 import { FormsModule } from '@angular/forms';
+import { PersonajesComponent } from './component/personajes/personajes.component';
+import { PersonajesSelectComponent } from './component/personajes-select/personajes-select.component';
+import { PersonajesDisplayComponent } from './component/personajes-display/personajes-display.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ConversionComponent,
     ConversionSelectorComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    PersonajesComponent,
+    PersonajesSelectComponent,
+    PersonajesDisplayComponent
   ],
   imports: [
     BrowserModule,

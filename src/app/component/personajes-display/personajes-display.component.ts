@@ -16,7 +16,7 @@ export class PersonajesDisplayComponent {
   
   ngOnInit(){
     this.selector.currentPersonaje.subscribe(personaje => this.personaje = personaje);
-    this.selector.currentImagen.subscribe(imagen => this.imgSrc = "../../../assets/img/"+imagen)
+    this.selector.currentImagen.subscribe(imagen => this.imgSrc = "assets/img/"+imagen)
   }
 
 }

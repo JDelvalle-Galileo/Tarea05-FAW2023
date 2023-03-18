@@ -1,12 +1,23 @@
 #content{
     padding-left: 10px;
-}
-#conversionsTable{
-    width: 500px;
-    border-collapse: collapse;
-    th, td{
-        border: 1px solid black;
-        width: 50%;
-        text-align: center;
+    #components{
+        width: 550px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        
+        #conversionsTable{
+            font-size: 20px;
+            width: 500px;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+            th, td{
+                border: 1px solid black;
+                width: 50%;
+                text-align: center;
+            }
+        }
+        
     }
 }
